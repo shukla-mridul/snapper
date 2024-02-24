@@ -1,0 +1,34 @@
+.WebcamCapture{
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+   
+
+}
+.webcam{
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px #080808c2 ;
+transition: 0.3s all ease-in-out;
+}
+
+.click-btn{
+   
+}
+
+.webcam-capture-btn{
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    bottom: 1rem;
+   text-align: center;
+   left: 50%;
+   right: 50%;
+  transform:  translate(-50% , -50%);
+  transition: all 0.3s ease-in-out;
+
+}
+
+.webcam:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px 5px #08080883 ;
+}
